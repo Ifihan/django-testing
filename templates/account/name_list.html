@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Name List</title>
+</head>
+<body>
+    <h1>Name List</h1>
+    <ul>
+    {% for name in names %}
+        <li>{{ name.name }} - {{ name.description }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

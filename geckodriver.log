@@ -1,0 +1,7 @@
+1685032571085	geckodriver	INFO	Listening on 127.0.0.1:51830
+1685032571324	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/n5/p4qk568s62vf2rql5d04sj5w0000gn/T/rust_mozprofile5qFUox"
+2023-05-25 16:36:38.412 firefox-bin[64005:1499723] AuthorizationCopyRights failed! NSOSStatusErrorDomain / -60006
+WebDriver BiDi listening on ws://127.0.0.1:51831
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51831/devtools/browser/bea5b920-5f80-4ae8-ace4-bd3313e0ca71

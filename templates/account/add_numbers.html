@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Numbers</title>
+</head>
+<body>
+    <h1>Add Numbers</h1>
+    <form method="post" action="{% url 'accounts:add_numbers' %}">
+        {% csrf_token %}
+        <label for="num1">Number 1:</label>
+        <input type="text" id="num1" name="num1" required><br>
+
+        <label for="num2">Number 2:</label>
+        <input type="text" id="num2" name="num2" required><br>
+
+        <button type="submit">Add</button>
+    </form>
+
+    {% if sum %}
+        <p>The sum of {{ num1 }} and {{ num2 }} is {{ sum }}.</p>
+    {% endif %}
+</body>
+</html>

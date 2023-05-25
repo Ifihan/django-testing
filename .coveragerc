@@ -1,0 +1,14 @@
+[run]
+source = .
+omit = */migrations/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __str__
+    def __repr__
+    if settings.DEBUG
+    if TYPE_CHECKING
+
+[html]
+directory = coverage_report
